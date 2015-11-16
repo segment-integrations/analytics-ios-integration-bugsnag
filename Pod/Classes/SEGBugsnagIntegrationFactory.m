@@ -27,7 +27,7 @@
 
 - (NSString *)key
 {
-    return @"Crittercism";
+    return @"Bugsnag";
 }
 
 @end
