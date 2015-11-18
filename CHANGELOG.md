@@ -1,12 +1,8 @@
 Change Log
 ==========
 
-Version 4.0.1-alpha *(15-11-2015)*
-----------------------------
-
- * Fix key.
-
-Version 4.0.0-alpha *(14-11-2015)*
-----------------------------
+Version 1.0.0-alpha *(18th November, 2015)*
+-------------------------------------------
+*(Supports analytics-ios 3.0.+ and Bugsnag 4.0.+)*
 
 Initial release.
