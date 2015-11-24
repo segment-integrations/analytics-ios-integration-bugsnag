@@ -1,11 +1,11 @@
 PODS:
-  - Analytics (3.0.2-alpha)
+  - Analytics (3.0.0)
   - Bugsnag (4.0.9):
     - Bugsnag/no-arc (= 4.0.9)
   - Bugsnag/no-arc (4.0.9)
   - Expecta (1.0.5)
-  - Segment-Bugsnag (4.0.1-alpha):
-    - Analytics (~> 3.0.2-alpha)
+  - Segment-Bugsnag (1.0.0-alpha):
+    - Analytics (~> 3.0.0)
     - Bugsnag (~> 4.0)
   - Specta (1.0.5)
 
@@ -19,10 +19,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Analytics: a9794c7b948c0208c6e15653e3871b30c3dc37ad
+  Analytics: 3ebd9eee7aa18bbf7d6418f2290b0bbf694144d5
   Bugsnag: a4bdbf356f318cef00d12eb1601f16d8d0c71ba4
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Segment-Bugsnag: 79825e14c13bed281b68257e9a024ca1a1ca253e
+  Segment-Bugsnag: aed9141f6f93896a243d03ae018469db223308d8
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 COCOAPODS: 0.39.0
