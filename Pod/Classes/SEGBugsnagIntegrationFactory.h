@@ -2,7 +2,7 @@
 #import <Analytics/SEGIntegrationFactory.h>
 
 
-@interface SEGCrittercismIntegrationFactory : NSObject <SEGIntegrationFactory>
+@interface SEGBugsnagIntegrationFactory : NSObject <SEGIntegrationFactory>
 
 + (id)instance;
 

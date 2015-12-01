@@ -2,7 +2,7 @@
 #import "SEGBugsnagIntegration.h"
 
 
-@implementation SEGCrittercismIntegrationFactory
+@implementation SEGBugsnagIntegrationFactory
 
 + (id)instance
 {
