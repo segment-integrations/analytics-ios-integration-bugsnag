@@ -22,7 +22,7 @@
   "source_files": "Pod/Classes/**/*",
   "dependencies": {
     "Analytics": [
-      "~> 3.0.0"
+      "~> 3.0"
     ],
     "Bugsnag": [
       "~> 4.0"
