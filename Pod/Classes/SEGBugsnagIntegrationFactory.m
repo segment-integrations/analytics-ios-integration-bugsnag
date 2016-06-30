@@ -4,10 +4,10 @@
 
 @implementation SEGBugsnagIntegrationFactory
 
-+ (id)instance
++ (instancetype)instance
 {
     static dispatch_once_t once;
-    static SEGBugsnagIntegration *sharedInstance;
+    static SEGBugsnagIntegrationFactory *sharedInstance;
     dispatch_once(&once, ^{
         sharedInstance = [[self alloc] init];
     });
