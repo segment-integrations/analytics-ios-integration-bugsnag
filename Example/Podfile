@@ -1,12 +1,10 @@
-source 'https://github.com/CocoaPods/Specs.git'
+target 'Segment-Bugsnag_Example' do
+  pod 'Segment-Bugsnag', :path => '../'
 
-target 'Segment-Bugsnag_Example', :exclusive => true do
-  pod "Segment-Bugsnag", :path => "../"
-end
+  target 'Segment-Bugsnag_Tests' do
+    inherit! :search_paths
 
-target 'Segment-Bugsnag_Tests', :exclusive => true do
-  pod "Segment-Bugsnag", :path => "../"
-
-  pod 'Specta'
-  pod 'Expecta'
+    pod 'Specta'
+    pod 'Expecta'
+  end
 end
