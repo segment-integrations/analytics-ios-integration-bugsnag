@@ -8,11 +8,30 @@ Bugsnag integration for analytics-ios.
 
 ## Installation
 
-Analytics is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your `Podfile`:
+To install the Segment-Bugsnag integration, simply add this line to your [CocoaPods](http://cocoapods.org) `Podfile`:
 
 ```ruby
 pod "Segment-Bugsnag"
+```
+
+## Usage
+
+After adding the dependency, you must register the integration with our SDK.  To do this, import the Bugsnag integration in your `AppDelegate`:
+
+```
+#import <Segment-Bugsnag/SEGBugsnagIntegrationFactory.h>
+```
+
+And add the following lines:
+
+```
+NSString *const SEGMENT_WRITE_KEY = @" ... ";
+SEGAnalyticsConfiguration *config = [SEGAnalyticsConfiguration configurationWithWriteKey:SEGMENT_WRITE_KEY];
+
+[config use:[SEGBugsnagIntegrationFactory instance]];
+
+[SEGAnalytics setupWithConfiguration:config];
+
 ```
 
 ## License
