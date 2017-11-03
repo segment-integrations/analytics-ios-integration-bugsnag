@@ -1,6 +1,5 @@
 # Analytics
 
-[![CI Status](http://img.shields.io/travis/segment-integrations/analytics-ios-integration-bugsnag.svg?style=flat)](https://travis-ci.org/segment-integrations/analytics-ios-integration-bugsnag)
 [![Version](https://img.shields.io/cocoapods/v/Segment-Bugsnag.svg?style=flat)](http://cocoapods.org/pods/Segment-Bugsnag)
 [![License](https://img.shields.io/cocoapods/l/Segment-Bugsnag.svg?style=flat)](http://cocoapods.org/pods/Segment-Bugsnag)
 
