@@ -1,6 +1,12 @@
 Change Log
 ==========
 
+Version 1.0.3 *(18th January, 2018*
+-------------------------------------------
+*(Supports analytics-ios 3.+ and Bugsnag 5.+)*
+
+  * Improvement: Relax Bugsnag dependency to work with any version > 5.0.
+
 Version 1.0.2 *(14th September, 2016)*
 -------------------------------------------
 *(Supports analytics-ios 3.+ and Bugsnag 4.+)*
