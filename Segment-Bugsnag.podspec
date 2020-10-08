@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Bugsnag"
-  s.version          = "1.0.4"
+  s.version          = "1.0.5"
   s.summary          = "Bugsnag Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
