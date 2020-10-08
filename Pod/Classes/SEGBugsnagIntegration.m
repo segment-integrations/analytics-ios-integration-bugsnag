@@ -1,8 +1,12 @@
 #import "SEGBugsnagIntegration.h"
 #import <Bugsnag/Bugsnag.h>
-#import <Analytics/SEGAnalyticsUtils.h>
+#if defined(__has_include) && __has_include(<Analytics/SEGAnalytics.h>)
 #import <Analytics/SEGAnalytics.h>
-
+#import <Analytics/SEGAnalyticsUtils.h>
+#else
+#import <Segment/SEGAnalytics.h>
+#import <Segment/SEGAnalyticsUtils.h>
+#endif
 
 @implementation SEGBugsnagIntegration
 
